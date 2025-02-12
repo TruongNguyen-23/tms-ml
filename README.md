@@ -13,8 +13,6 @@ Hệ thống **TMS (Transport Management System)** sử dụng **Machine Learnin
 ```bash
  tms_project/
  │── data/                     # Dữ liệu
- │   ├── raw/                  # Dữ liệu gốc
- │   ├── processed/            # Dữ liệu đã xử lý
  │── notebooks/                # Phân tích dữ liệu
  │── src/                      # Code chính
  │   ├── preprocess.py         # Tiền xử lý dữ liệu
@@ -34,10 +32,10 @@ Hệ thống **TMS (Transport Management System)** sử dụng **Machine Learnin
 
 ## 🛠 Cài đặt môi trường  
 ```bash
-# Tạo môi trường ảo
-python -m venv venv
-source venv/bin/activate  # MacOS/Linux
-venv\Scripts\activate     # Windows
+# # Tạo môi trường ảo
+# python -m venv venv
+# source venv/bin/activate  # MacOS/Linux
+# venv\Scripts\activate     # Windows
 
 # Cài đặt thư viện cần thiết
 pip install -r requirements.txt
@@ -56,7 +54,7 @@ pip install -r requirements.txt
 - **Output:**  
   - `predicted_eta`: Thời gian dự đoán giao hàng  
 
-📌 **Lưu ý:** Dữ liệu gốc cần được đặt trong thư mục `data/raw/`.  
+<!-- 📌 **Lưu ý:** Dữ liệu gốc cần được đặt trong thư mục `data/raw/`.   -->
 
 ---
 
@@ -65,24 +63,23 @@ pip install -r requirements.txt
 ```bash
 python src/train.py --epochs 100 --lr 0.01
 ```
-### 2️⃣ Dự đoán thời gian giao hàng  
+<!-- ### 2️⃣ Dự đoán thời gian giao hàng  
 ```bash
 python src/predict.py --order_id 12345
-```
+``` -->
 
 ---
 
 ## 🔍 Mô hình sử dụng  
-- **Random Forest Regressor**: Dự đoán thời gian giao hàng dựa trên dữ liệu đầu vào.  
-- **XGBoost**: Được thử nghiệm để cải thiện độ chính xác.  
+- **Decision Tree Regressor**: Dự đoán thời gian giao hàng dựa trên dữ liệu đầu vào.  
 
 ---
 
-## ✅ Kiểm thử  
+<!-- ## ✅ Kiểm thử  
 Chạy unit test để kiểm tra mô hình:  
 ```bash
 pytest tests/
-```
+``` -->
 
 ---
 
@@ -91,14 +88,14 @@ Mô hình đạt **R² Score: 0.85**, giúp tối ưu hóa việc giao hàng ch�
 
 ---
 
-## 🔧 Cấu hình  
+<!-- ## 🔧 Cấu hình  
 Thay đổi tham số mô hình trong `configs/config.yaml`:  
 ```yaml
 model:
   name: "RandomForest"
   max_depth: 10
   n_estimators: 100
-```
+``` -->
 
 ---
 
