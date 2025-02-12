@@ -32,11 +32,6 @@ Hệ thống **TMS (Transport Management System)** sử dụng **Machine Learnin
 
 ## 🛠 Cài đặt môi trường  
 ```bash
-# # Tạo môi trường ảo
-# python -m venv venv
-# source venv/bin/activate  # MacOS/Linux
-# venv\Scripts\activate     # Windows
-
 # Cài đặt thư viện cần thiết
 pip install -r requirements.txt
 ```
@@ -46,23 +41,36 @@ pip install -r requirements.txt
 ## 📊 Dữ liệu  
 - **Input:**  
   - `order_id`: Mã đơn hàng  
-  - `pickup_time`: Thời gian lấy hàng  
-  - `delivery_time`: Thời gian giao hàng thực tế  
-  - `distance`: Khoảng cách di chuyển  
-  - `traffic_conditions`: Điều kiện giao thông  
-  - `weather`: Thời tiết tại thời điểm giao hàng  
+  - `Volume`: Thời gian lấy hàng  
+  - `AreaCode`: Khu vực giao hàng  
+  - `ShipToLat,ShipToLon`: Điểm giao hàng 
+  - `PickUpLat,PickUpLon`: Điểm lấy hàng 
+  - `Distance`: Khoảng cách di chuyển  
+  - `EquipTypeNo`: Tải trọng xe cho phép  
+  - `ShipToType`: Khách hàng cá nhân hoặc siêu thị  
 - **Output:**  
-  - `predicted_eta`: Thời gian dự đoán giao hàng  
+  - `predicted_label`: Dự đoán số lượng order trong một trip 
 
-<!-- 📌 **Lưu ý:** Dữ liệu gốc cần được đặt trong thư mục `data/raw/`.   -->
 
 ---
 
 ## 🚀 Cách chạy dự án  
 ### 1️⃣ Huấn luyện mô hình  
 ```bash
-python src/train.py --epochs 100 --lr 0.01
+python main.py
+
 ```
+## Hoặc chỉnh sửa như sau tạo một file mới thực hiện chạy 
+## Ví dụ tạo file run_main.py để xem số lượng trip
+## Hoặc có thể xem qua file Template/map.html
+```bash
+from Src.train import trip_for_machine_learning
+result = trip_for_machine_learning()
+print(result)
+
+```
+
+
 <!-- ### 2️⃣ Dự đoán thời gian giao hàng  
 ```bash
 python src/predict.py --order_id 12345
@@ -84,7 +92,7 @@ pytest tests/
 ---
 
 ## 📈 Kết quả  
-Mô hình đạt **R² Score: 0.85**, giúp tối ưu hóa việc giao hàng chính xác hơn.  
+Mô hình đạt **R² Score: 0.95**, giúp tối ưu hóa việc giao hàng.  
 
 ---
 

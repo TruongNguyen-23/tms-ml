@@ -13,8 +13,8 @@
 Notebooks/
 *.ipynb
 
-Templates/
-*.html
+# Templates/
+# *.html
 
 venv/
 .env
