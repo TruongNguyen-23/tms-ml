@@ -1,0 +1,50 @@
+2025-02-11 10:26:58,692 - train - INFO - Start training
+2025-02-11 10:26:58,693 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-11 10:26:58,698 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-11 10:26:58,707 - train - INFO - Max Depth: 1, Accuracy: 7.558511253432987
+2025-02-11 10:26:58,716 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-11 10:26:58,723 - train - INFO - Max Depth: 2, Accuracy: 27.28328189159267
+2025-02-11 10:26:58,738 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-11 10:26:58,744 - train - INFO - Max Depth: 3, Accuracy: 47.949708612701706
+2025-02-11 10:26:58,763 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-11 10:26:58,772 - train - INFO - Max Depth: 4, Accuracy: 74.86735820472661
+2025-02-11 10:26:58,793 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-11 10:26:58,801 - train - INFO - Max Depth: 5, Accuracy: 82.49185024563504
+2025-02-11 10:26:58,825 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-11 10:26:58,835 - train - INFO - Max Depth: 6, Accuracy: 92.88115411944679
+2025-02-11 10:26:58,870 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-11 10:26:58,877 - train - INFO - Max Depth: 7, Accuracy: 93.2665478071582
+2025-02-11 10:26:58,907 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-11 10:26:58,916 - train - INFO - Max Depth: 8, Accuracy: 94.30990763665771
+2025-02-11 10:26:58,955 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-11 10:26:58,964 - train - INFO - Max Depth: 9, Accuracy: 95.06449253307679
+2025-02-11 10:26:58,965 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 39, 4: 39, 5: 39, 6: 41, 7: 41, 8: 44, 9: 47}, Best Depth: 9
+2025-02-11 10:26:59,007 - train - INFO - Success training
+2025-02-11 10:26:59,010 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-11 10:27:33,437 - train - INFO - Start training
+2025-02-11 10:27:33,437 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-11 10:27:33,442 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-11 10:27:33,451 - train - INFO - Max Depth: 1, Accuracy: 7.558511253432987
+2025-02-11 10:27:33,460 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-11 10:27:33,468 - train - INFO - Max Depth: 2, Accuracy: 27.28328189159267
+2025-02-11 10:27:33,479 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-11 10:27:33,486 - train - INFO - Max Depth: 3, Accuracy: 47.949708612701706
+2025-02-11 10:27:33,504 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-11 10:27:33,512 - train - INFO - Max Depth: 4, Accuracy: 74.86735820472661
+2025-02-11 10:27:33,532 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-11 10:27:33,540 - train - INFO - Max Depth: 5, Accuracy: 82.49185024563504
+2025-02-11 10:27:33,565 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-11 10:27:33,572 - train - INFO - Max Depth: 6, Accuracy: 92.88115411944679
+2025-02-11 10:27:33,605 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-11 10:27:33,613 - train - INFO - Max Depth: 7, Accuracy: 93.2665478071582
+2025-02-11 10:27:33,643 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-11 10:27:33,652 - train - INFO - Max Depth: 8, Accuracy: 94.30990763665771
+2025-02-11 10:27:33,690 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-11 10:27:33,701 - train - INFO - Max Depth: 9, Accuracy: 95.06449253307679
+2025-02-11 10:27:33,701 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 39, 4: 39, 5: 39, 6: 41, 7: 41, 8: 44, 9: 47}, Best Depth: 9
+2025-02-11 10:27:33,741 - train - INFO - Success training
+2025-02-11 10:27:33,743 - train - INFO - Save data to file model.pkl 
+
+

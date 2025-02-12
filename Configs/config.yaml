@@ -1,0 +1,16 @@
+project:
+  name: "Machine Learning Project"
+  version: "1.0"
+  random_seed: 42
+
+data:
+  train_path: "data/train.csv"
+  test_path: "data/test.csv"
+  batch_size: 32
+
+model:
+  type: "RandomForestRegressor"
+  hyperparameters:
+    n_estimators: 100
+    max_depth: 10
+    random_state: 42

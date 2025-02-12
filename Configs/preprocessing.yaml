@@ -1,0 +1,4 @@
+preprocessing:
+  missing_values: "mean"  # Cách xử lý giá trị khuyết
+  categorical_encoding: "one-hot"  # Loại encoding (one-hot, label)
+  normalize: true  # Chuẩn hóa dữ liệu hay không
