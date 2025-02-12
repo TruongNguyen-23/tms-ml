@@ -1,0 +1,35 @@
+Data/
+*.csv
+*.json
+# *.xlsx
+*.db
+
+Models/
+*.h5
+# *.pkl
+*.onnx
+*.pt
+
+Notebooks/
+*.ipynb
+
+Templates/
+*.html
+
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+logs/
+# *.log
+*.out
+*.err
+
+Configs/
+
+# 7️⃣ Bỏ qua tệp config cá nhân
+config.yaml
+secrets.json
