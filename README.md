@@ -1,68 +1,69 @@
-# 🚛 Transport Management System (TMS) - Machine Learning Project  
+# 🚛 Transport Management System (TMS) - Machine Learning Project
 
-## 📌 Mô tả dự án  
-Hệ thống **TMS (Transport Management System)** sử dụng **Machine Learning** để tối ưu hóa vận chuyển hàng hóa, dự đoán thời gian giao hàng và tối ưu tuyến đường.  
+## 📌 Project Description
+The **TMS (Transport Management System)** system uses **Machine Learning** to optimize freight transport, predict delivery times and optimize routes.
 
-### 🎯 Mục tiêu:  
-- Dự đoán thời gian giao hàng (**ETA - Estimated Time of Arrival**).  
-- Xây dựng mô hình tối ưu hóa tuyến đường.  
+### 🎯 Objectives:
+- Predict delivery times (**ETA - Estimated Time of Arrival**).
+
+- Build a route optimization model.
 
 ---
 
-## 📂 Cấu trúc thư mục  
+## 📂 Directory Structure
 ```bash
- tms_project/
- │── data/                     # Dữ liệu
- │── notebooks/                # Phân tích dữ liệu
- │── src/                      # Code chính
- │   ├── preprocess.py         # Tiền xử lý dữ liệu
- │   ├── model.py              # Xây dựng mô hình
- │   ├── train.py              # Huấn luyện mô hình
- │   ├── predict.py            # Dự đoán thời gian giao hàng
- │── models/                   # Lưu trữ mô hình đã huấn luyện
- │── reports/                  # Báo cáo và kết quả
- │── logs/                     # Log quá trình chạy
- │── tests/                    # Unit test kiểm thử mô hình
- │── configs/                  # File cấu hình tham số mô hình
- │── requirements.txt          # Thư viện cần thiết
- │── README.md                 # Tài liệu hướng dẫn
+tms_project/
+│── data/ # Data
+│── notebooks/ # Data analysis
+│── src/ # Main code
+│ ├── preprocess.py # Data preprocessing
+│ ├── model.py # Model building
+│ ├── train.py # Model training
+│ ├── predict.py # Delivery time prediction
+│── models/ # Store trained model
+│── reports/ # Reports and results
+│── logs/ # Run logs
+│── tests/ # Unit test model testing
+│── configs/ # Model parameter configuration file
+│── requirements.txt # Required libraries
+│── README.md # Documentation
 ```
 
 ---
 
-## 🛠 Cài đặt môi trường  
+## 🛠 Environment setup
 ```bash
-# Cài đặt thư viện cần thiết
+# Install required libraries
 pip install -r requirements.txt
 ```
 
 ---
 
-## 📊 Dữ liệu  
-- **Input:**  
-  - `order_id`: Mã đơn hàng  
-  - `Volume`: Thời gian lấy hàng  
-  - `AreaCode`: Khu vực giao hàng  
-  - `ShipToLat,ShipToLon`: Điểm giao hàng 
-  - `PickUpLat,PickUpLon`: Điểm lấy hàng 
-  - `Distance`: Khoảng cách di chuyển  
-  - `EquipTypeNo`: Tải trọng xe cho phép  
-  - `ShipToType`: Khách hàng cá nhân hoặc siêu thị  
-- **Output:**  
-  - `predicted_label`: Dự đoán số lượng order trong một trip 
+## 📊 Data
+- **Input:**
 
+- `OrderId`: Order code
+- `Volume`: Pickup time
+- `AreaCode`: Delivery area
+- `ShipToLat,ShipToLon`: Delivery point
+- `PickUpLat,PickUpLon`: Pickup point
+- `Distance`: Distance way of moving
+- `EquipTypeNo`: Allowed vehicle load
+- `ShipToType`: Individual customers or supermarkets
+- **Output:**
+- `PredictedLabel`: Predict the number of orders in a trip
 
 ---
 
-## 🚀 Cách chạy dự án  
-### 1️⃣ Huấn luyện mô hình  
+## 🚀 How to run the project
+### 1️⃣ Train the model
 ```bash
 python main.py
 
 ```
-## Hoặc chỉnh sửa như sau tạo một file mới thực hiện chạy 
-## Ví dụ tạo file run_main.py để xem số lượng trip
-## Hoặc có thể xem qua file Template/map.html
+## Or edit as follows to create a new file to run
+## For example, create a run_main.py file to see the number of trips
+## Or you can look through the Template/map.html file
 ```bash
 from Src.train import trip_for_machine_learning
 result = trip_for_machine_learning()
@@ -70,47 +71,46 @@ print(result)
 
 ```
 
-
-<!-- ### 2️⃣ Dự đoán thời gian giao hàng  
+<!-- ### 2️⃣ Predict delivery time
 ```bash
 python src/predict.py --order_id 12345
 ``` -->
 
 ---
 
-## 🔍 Mô hình sử dụng  
-- **Decision Tree Regressor**: Dự đoán thời gian giao hàng dựa trên dữ liệu đầu vào.  
+## 🔍 Model used
+- **Decision Tree Regressor**: Predict delivery time based on input data.
 
 ---
 
-<!-- ## ✅ Kiểm thử  
-Chạy unit test để kiểm tra mô hình:  
+<!-- ## ✅ Testing
+Run unit test to test the model:
 ```bash
 pytest tests/
 ``` -->
 
 ---
 
-## 📈 Kết quả  
-Mô hình đạt **R² Score: 0.95**, giúp tối ưu hóa việc giao hàng.  
+## 📈 Results
+The model achieved **R² Score: 0.95**, helping to optimize delivery.
 
 ---
 
-<!-- ## 🔧 Cấu hình  
-Thay đổi tham số mô hình trong `configs/config.yaml`:  
+<!-- ## 🔧 Configuration
+Change model parameters in `configs/config.yaml`:
 ```yaml
 model:
-  name: "RandomForest"
-  max_depth: 10
-  n_estimators: 100
+name: "RandomForest"
+max_depth: 10
+n_estimators: 100
 ``` -->
 
 ---
 
-## 📌 Đóng góp  
-Nếu bạn muốn đóng góp, hãy mở **Pull Request** hoặc liên hệ qua email nguyenkhoatruong231199@gmail.com.  
+## 📌 Contribute
+If you would like to contribute, please open a **Pull Request** or contact us via email nguyenkhoatruong231199@gmail.com.
 
 ---
 
-## 📜 Giấy phép  
-Dự án này tuân theo giấy phép **MIT License**.  
+## 📜 License
+This project is licensed under the **MIT License**.

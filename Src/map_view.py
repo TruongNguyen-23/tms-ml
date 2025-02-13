@@ -14,8 +14,7 @@ class MapCluster:
             for item in items:
                 item[4] = unidecode(item[4])
         return data
-    def show_data_on_map(self, tripno, data, color):
-        
+    def show_data_on_map(self, trip_no, data, color):
         data = self.handle_unicode_data(data)
         _html = f"""
         <!DOCTYPE html>
@@ -25,7 +24,7 @@ class MapCluster:
                 <script src="https://maps.googleapis.com/maps/api/js?key={self.api_Key}&callback=initMap" async defer></script>
                 <script>
                     async function initMap() {{
-                        var tripNo={tripno};
+                        var tripNo={trip_no};
                         var points={data};
                         const {{ AdvancedMarkerElement, PinElement }} = await google.maps.importLibrary("marker");
                         var bounds = new google.maps.LatLngBounds();
