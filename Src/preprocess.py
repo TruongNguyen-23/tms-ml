@@ -38,6 +38,7 @@ def data_history_processing():
    
 def data_predict_processing():
     orders_data = DataLoader().load_excel('dataOrders.xlsx')
+    # orders_data = DataLoader().load_excel('dataValidate.xlsx')
     split_orders = []
     
     for index, row in orders_data.iterrows():

@@ -43,7 +43,7 @@ pip install -r requirements.txt
 - **Input:**
 
 - `OrderId`: Order code
-- `Volume`: Pickup time
+- `Volume`: Vehicle Load M3
 - `AreaCode`: Delivery area
 - `ShipToLat,ShipToLon`: Delivery point
 - `PickUpLat,PickUpLon`: Pickup point
@@ -79,7 +79,7 @@ python src/predict.py --order_id 12345
 ---
 
 ## 🔍 Model used
-- **Decision Tree Regressor**: Predict delivery time based on input data.
+- **Decision Tree Regressor**: Predict optimal number of trips on input data.
 
 ---
 
