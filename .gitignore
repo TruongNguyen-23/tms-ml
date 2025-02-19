@@ -34,5 +34,4 @@ __pycache__/
 
 # config.yaml
 # secrets.json
-
-# setup.py
+setup.py
