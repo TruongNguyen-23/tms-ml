@@ -21,7 +21,7 @@ class FeatureEngineering:
 
     def encode_categorical(self, df, categorical_cols):
         for col in categorical_cols:
-            if df[col].nunique() > 10:  # Nếu có quá nhiều giá trị duy nhất, dùng Label Encoding
+            if df[col].nunique() > 10:
                 df[col] = LabelEncoder().fit_transform(df[col])
             else:
                 encoded = pd.get_dummies(df[col], prefix=col)
@@ -37,20 +37,3 @@ class FeatureEngineering:
         df = self.encode_categorical(df, categorical_cols)
         df = self.scale_features(df, numerical_cols)
         return df
-
-if __name__ == "__main__":
-    data = {
-        "age": [25, 30, np.nan, 40, 50],
-        "salary": [50000, 60000, 75000, np.nan, 90000],
-        "city": ["New York", "San Francisco", "Los Angeles", "New York", np.nan],
-        "gender": ["Male", "Female", "Female", np.nan, "Male"]
-    }
-
-    df = pd.DataFrame(data)
-
-    numerical_cols = ["age", "salary"]
-    categorical_cols = ["city", "gender"]
-
-    fe = FeatureEngineering()
-    df_processed = fe.feature_engineering(df, numerical_cols, categorical_cols)
-    print(df_processed)

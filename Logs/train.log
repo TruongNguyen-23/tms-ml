@@ -48,3 +48,952 @@
 2025-02-11 10:27:33,743 - train - INFO - Save data to file model.pkl 
 
 
+2025-02-14 13:33:50,578 - train - INFO - Start training
+2025-02-14 13:33:50,578 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-14 13:33:50,594 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-14 13:33:50,601 - train - INFO - Max Depth: 1, Accuracy: 62.586470266811
+2025-02-14 13:33:50,618 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-14 13:33:50,626 - train - INFO - Max Depth: 2, Accuracy: 70.49140239215512
+2025-02-14 13:33:50,648 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-14 13:33:50,656 - train - INFO - Max Depth: 3, Accuracy: 87.47189924812882
+2025-02-14 13:33:50,682 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-14 13:33:50,691 - train - INFO - Max Depth: 4, Accuracy: 91.32592574339668
+2025-02-14 13:33:50,726 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-14 13:33:50,734 - train - INFO - Max Depth: 5, Accuracy: 91.29325839775316
+2025-02-14 13:33:50,771 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-14 13:33:50,781 - train - INFO - Max Depth: 6, Accuracy: 93.78199326939615
+2025-02-14 13:33:50,817 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-14 13:33:50,825 - train - INFO - Max Depth: 7, Accuracy: 93.86423186761945
+2025-02-14 13:33:50,876 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-14 13:33:50,885 - train - INFO - Max Depth: 8, Accuracy: 94.69951496320715
+2025-02-14 13:33:50,929 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-14 13:33:50,938 - train - INFO - Max Depth: 9, Accuracy: 94.87809278134122
+2025-02-14 13:33:50,939 - train - INFO - Max depth: 8, Temp Number: {1: 40, 2: 40, 3: 41, 4: 40, 5: 40, 6: 42, 7: 41, 8: 41, 9: 50}, Best Depth: 9
+2025-02-14 13:33:50,982 - train - INFO - Success training
+2025-02-14 13:33:50,986 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-14 13:34:42,047 - train - INFO - Start training
+2025-02-14 13:34:42,047 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-14 13:34:42,053 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-14 13:34:42,063 - train - INFO - Max Depth: 1, Accuracy: 7.558511253432987
+2025-02-14 13:34:42,076 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-14 13:34:42,083 - train - INFO - Max Depth: 2, Accuracy: 27.28328189159267
+2025-02-14 13:34:42,098 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-14 13:34:42,108 - train - INFO - Max Depth: 3, Accuracy: 47.949708612701706
+2025-02-14 13:34:42,130 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-14 13:34:42,139 - train - INFO - Max Depth: 4, Accuracy: 74.86735820472661
+2025-02-14 13:34:42,165 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-14 13:34:42,174 - train - INFO - Max Depth: 5, Accuracy: 82.49185024563504
+2025-02-14 13:34:42,208 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-14 13:34:42,219 - train - INFO - Max Depth: 6, Accuracy: 92.88115411944679
+2025-02-14 13:34:42,262 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-14 13:34:42,272 - train - INFO - Max Depth: 7, Accuracy: 93.2665478071582
+2025-02-14 13:34:42,311 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-14 13:34:42,320 - train - INFO - Max Depth: 8, Accuracy: 94.30990763665771
+2025-02-14 13:34:42,368 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-14 13:34:42,379 - train - INFO - Max Depth: 9, Accuracy: 95.06449253307679
+2025-02-14 13:34:42,379 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 39, 4: 39, 5: 39, 6: 41, 7: 41, 8: 44, 9: 47}, Best Depth: 9
+2025-02-14 13:34:42,420 - train - INFO - Success training
+2025-02-14 13:34:42,425 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-14 13:35:10,223 - train - INFO - Start training
+2025-02-14 13:35:10,224 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-14 13:35:10,230 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-14 13:35:10,238 - train - INFO - Max Depth: 1, Accuracy: 7.558511253432987
+2025-02-14 13:35:10,250 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-14 13:35:10,260 - train - INFO - Max Depth: 2, Accuracy: 27.28328189159267
+2025-02-14 13:35:10,276 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-14 13:35:10,284 - train - INFO - Max Depth: 3, Accuracy: 47.949708612701706
+2025-02-14 13:35:10,303 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-14 13:35:10,313 - train - INFO - Max Depth: 4, Accuracy: 74.86735820472661
+2025-02-14 13:35:10,336 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-14 13:35:10,345 - train - INFO - Max Depth: 5, Accuracy: 82.49185024563504
+2025-02-14 13:35:10,375 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-14 13:35:10,384 - train - INFO - Max Depth: 6, Accuracy: 92.88115411944679
+2025-02-14 13:35:10,420 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-14 13:35:10,429 - train - INFO - Max Depth: 7, Accuracy: 93.2665478071582
+2025-02-14 13:35:10,470 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-14 13:35:10,492 - train - INFO - Max Depth: 8, Accuracy: 94.30990763665771
+2025-02-14 13:35:10,548 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-14 13:35:10,564 - train - INFO - Max Depth: 9, Accuracy: 95.06449253307679
+2025-02-14 13:35:10,564 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 39, 4: 39, 5: 39, 6: 41, 7: 41, 8: 44, 9: 47}, Best Depth: 9
+2025-02-14 13:35:10,620 - train - INFO - Success training
+2025-02-14 13:35:10,626 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-14 13:35:58,210 - train - INFO - Start training
+2025-02-14 13:35:58,211 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-14 13:37:09,095 - train - INFO - Start training
+2025-02-14 13:37:09,095 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-14 13:37:15,811 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-14 13:37:15,818 - train - INFO - Max Depth: 1, Accuracy: -4.325925429151556
+2025-02-14 13:37:25,723 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-14 13:37:25,731 - train - INFO - Max Depth: 2, Accuracy: 18.584377047857224
+2025-02-14 13:37:37,199 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-14 13:37:37,205 - train - INFO - Max Depth: 3, Accuracy: 54.82134082220739
+2025-02-14 13:37:50,315 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-14 13:37:50,322 - train - INFO - Max Depth: 4, Accuracy: 71.80714501519469
+2025-02-14 13:38:03,690 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-14 13:38:03,698 - train - INFO - Max Depth: 5, Accuracy: 87.09428894902915
+2025-02-17 09:26:29,551 - train - INFO - Start training
+2025-02-17 09:26:29,551 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-17 09:26:29,575 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-17 09:26:29,599 - train - INFO - Max Depth: 1, Accuracy: 7.558511253432987
+2025-02-17 09:26:29,624 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-17 09:26:29,641 - train - INFO - Max Depth: 2, Accuracy: 27.28328189159267
+2025-02-17 09:26:29,674 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-17 09:26:29,691 - train - INFO - Max Depth: 3, Accuracy: 47.949708612701706
+2025-02-17 09:26:29,741 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-17 09:26:29,763 - train - INFO - Max Depth: 4, Accuracy: 74.86735820472661
+2025-02-17 09:26:29,814 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-17 09:26:29,829 - train - INFO - Max Depth: 5, Accuracy: 82.49185024563504
+2025-02-17 09:26:29,891 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-17 09:26:29,913 - train - INFO - Max Depth: 6, Accuracy: 92.88115411944679
+2025-02-17 09:26:29,987 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-17 09:26:30,008 - train - INFO - Max Depth: 7, Accuracy: 93.2665478071582
+2025-02-17 09:26:30,086 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-17 09:26:30,104 - train - INFO - Max Depth: 8, Accuracy: 94.30990763665771
+2025-02-17 09:26:30,192 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-17 09:26:30,213 - train - INFO - Max Depth: 9, Accuracy: 95.06449253307679
+2025-02-17 09:26:30,213 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 39, 4: 39, 5: 39, 6: 41, 7: 41, 8: 44, 9: 47}, Best Depth: 9
+2025-02-17 09:26:30,316 - train - INFO - Success training
+2025-02-17 10:53:59,811 - train - INFO - Start training
+2025-02-17 10:53:59,814 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-17 10:53:59,827 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-17 10:53:59,834 - train - INFO - Max Depth: 1, Accuracy: 7.558511253432987
+2025-02-17 10:53:59,843 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-17 10:53:59,847 - train - INFO - Max Depth: 2, Accuracy: 27.28328189159267
+2025-02-17 10:53:59,861 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-17 10:53:59,867 - train - INFO - Max Depth: 3, Accuracy: 47.949708612701706
+2025-02-17 10:53:59,885 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-17 10:53:59,889 - train - INFO - Max Depth: 4, Accuracy: 74.86735820472661
+2025-02-17 10:53:59,910 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-17 10:53:59,913 - train - INFO - Max Depth: 5, Accuracy: 82.49185024563504
+2025-02-17 10:53:59,945 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-17 10:53:59,949 - train - INFO - Max Depth: 6, Accuracy: 92.88115411944679
+2025-02-17 10:53:59,984 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-17 10:53:59,991 - train - INFO - Max Depth: 7, Accuracy: 93.2665478071582
+2025-02-17 10:54:00,025 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-17 10:54:00,029 - train - INFO - Max Depth: 8, Accuracy: 94.30990763665771
+2025-02-17 10:54:00,075 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-17 10:54:00,079 - train - INFO - Max Depth: 9, Accuracy: 95.06449253307679
+2025-02-17 10:54:00,079 - train - INFO - Max depth: 9, Temp Number: {1: 2, 2: 2, 3: 2, 4: 2, 5: 2, 6: 2, 7: 2, 8: 2, 9: 2}, Best Depth: 9
+2025-02-17 10:54:00,124 - train - INFO - Success training
+2025-02-17 10:54:00,129 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-17 10:54:32,615 - train - INFO - Start training
+2025-02-17 10:54:32,615 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-17 10:54:32,623 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-17 10:54:32,630 - train - INFO - Max Depth: 1, Accuracy: 7.558511253432987
+2025-02-17 10:54:32,642 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-17 10:54:32,653 - train - INFO - Max Depth: 2, Accuracy: 27.28328189159267
+2025-02-17 10:54:32,668 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-17 10:54:32,678 - train - INFO - Max Depth: 3, Accuracy: 47.949708612701706
+2025-02-17 10:54:32,700 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-17 10:54:32,709 - train - INFO - Max Depth: 4, Accuracy: 74.86735820472661
+2025-02-17 10:54:32,732 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-17 10:54:32,741 - train - INFO - Max Depth: 5, Accuracy: 82.49185024563504
+2025-02-17 10:54:32,771 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-17 10:54:32,784 - train - INFO - Max Depth: 6, Accuracy: 92.88115411944679
+2025-02-17 10:54:32,822 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-17 10:54:32,836 - train - INFO - Max Depth: 7, Accuracy: 93.2665478071582
+2025-02-17 10:54:32,873 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-17 10:54:32,883 - train - INFO - Max Depth: 8, Accuracy: 94.30990763665771
+2025-02-17 10:54:32,931 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-17 10:54:32,941 - train - INFO - Max Depth: 9, Accuracy: 95.06449253307679
+2025-02-17 10:54:32,941 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 39, 4: 39, 5: 39, 6: 41, 7: 41, 8: 44, 9: 47}, Best Depth: 9
+2025-02-17 10:54:32,990 - train - INFO - Success training
+2025-02-17 10:54:32,996 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-17 10:56:02,285 - train - INFO - Start training
+2025-02-17 10:56:02,285 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-17 10:56:02,290 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-17 10:56:02,297 - train - INFO - Max Depth: 1, Accuracy: 7.558511253432987
+2025-02-17 10:56:02,310 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-17 10:56:02,320 - train - INFO - Max Depth: 2, Accuracy: 27.28328189159267
+2025-02-17 10:56:02,334 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-17 10:56:02,342 - train - INFO - Max Depth: 3, Accuracy: 47.949708612701706
+2025-02-17 10:56:02,361 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-17 10:56:02,370 - train - INFO - Max Depth: 4, Accuracy: 74.86735820472661
+2025-02-17 10:56:02,390 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-17 10:56:02,397 - train - INFO - Max Depth: 5, Accuracy: 82.49185024563504
+2025-02-17 10:56:02,427 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-17 10:56:02,436 - train - INFO - Max Depth: 6, Accuracy: 92.88115411944679
+2025-02-17 10:56:02,470 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-17 10:56:02,477 - train - INFO - Max Depth: 7, Accuracy: 93.2665478071582
+2025-02-17 10:56:02,510 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-17 10:56:02,521 - train - INFO - Max Depth: 8, Accuracy: 94.30990763665771
+2025-02-17 10:56:02,521 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 39, 4: 39, 5: 39, 6: 41, 7: 41, 8: 44}, Best Depth: 8
+2025-02-17 10:56:02,554 - train - INFO - Success training
+2025-02-17 10:56:02,557 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-17 10:56:56,495 - train - INFO - Start training
+2025-02-17 10:56:56,495 - train - INFO - Sample data train = 36238, Sample data test = 9060
+2025-02-17 10:56:56,512 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-17 10:56:56,539 - train - INFO - Max Depth: 1, Accuracy: 7.558511253432987
+2025-02-17 10:56:56,557 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-17 10:56:56,571 - train - INFO - Max Depth: 2, Accuracy: 27.28328189159267
+2025-02-17 10:56:56,593 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-17 10:56:56,614 - train - INFO - Max Depth: 3, Accuracy: 47.949708612701706
+2025-02-17 10:56:56,645 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-17 10:56:56,662 - train - INFO - Max Depth: 4, Accuracy: 74.86735820472661
+2025-02-17 10:56:56,693 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-17 10:56:56,710 - train - INFO - Max Depth: 5, Accuracy: 82.49185024563504
+2025-02-17 10:56:56,758 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-17 10:56:56,776 - train - INFO - Max Depth: 6, Accuracy: 92.88115411944679
+2025-02-17 10:56:56,823 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-17 10:56:56,838 - train - INFO - Max Depth: 7, Accuracy: 93.2665478071582
+2025-02-17 10:56:56,838 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 39, 4: 39, 5: 39, 6: 41, 7: 41}, Best Depth: 7
+2025-02-17 10:56:56,885 - train - INFO - Success training
+2025-02-17 10:56:56,891 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-17 15:51:59,134 - train - INFO - Start training
+2025-02-17 15:51:59,135 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-17 15:51:59,318 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-17 15:51:59,332 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-17 15:51:59,365 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-17 15:51:59,374 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-17 15:51:59,410 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-17 15:51:59,419 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-17 15:51:59,478 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-17 15:51:59,485 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-17 15:51:59,557 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-17 15:51:59,565 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-17 15:51:59,652 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-17 15:51:59,663 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-17 15:51:59,729 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-17 15:51:59,738 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-17 15:51:59,832 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-17 15:51:59,843 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-17 15:51:59,944 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-17 15:51:59,955 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-17 15:51:59,955 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 41, 4: 41, 5: 40, 6: 41, 7: 41, 8: 40, 9: 44}, Best Depth: 9
+2025-02-17 15:52:00,047 - train - INFO - Success training
+2025-02-17 15:52:00,055 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-17 15:52:27,913 - train - INFO - Start training
+2025-02-17 15:52:27,913 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-17 15:52:27,934 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-17 15:52:27,946 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-17 15:52:27,976 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-17 15:52:27,983 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-17 15:52:28,026 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-17 15:52:28,034 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-17 15:52:28,099 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-17 15:52:28,107 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-17 15:52:28,177 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-17 15:52:28,184 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-17 15:52:28,259 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-17 15:52:28,267 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-17 15:52:28,338 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-17 15:52:28,348 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-17 15:52:28,441 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-17 15:52:28,449 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-17 15:52:28,559 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-17 15:52:28,566 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-17 15:52:28,567 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 41, 4: 41, 5: 40, 6: 41, 7: 41, 8: 40, 9: 44}, Best Depth: 9
+2025-02-17 15:52:28,657 - train - INFO - Success training
+2025-02-17 15:52:28,661 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-17 15:53:23,403 - train - INFO - Start training
+2025-02-17 15:53:23,403 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-17 15:53:23,427 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-17 15:53:23,434 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-17 15:53:23,466 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-17 15:53:23,478 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-17 15:53:23,516 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-17 15:53:23,528 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-17 15:53:23,593 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-17 15:53:23,602 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-17 15:53:23,668 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-17 15:53:23,677 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-17 15:53:23,747 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-17 15:53:23,760 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-17 15:53:23,828 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-17 15:53:23,840 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-17 15:53:23,933 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-17 15:53:23,943 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-17 15:53:24,042 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-17 15:53:24,055 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-17 15:53:24,055 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 41, 4: 41, 5: 40, 6: 41, 7: 41, 8: 40, 9: 44}, Best Depth: 9
+2025-02-17 15:53:24,146 - train - INFO - Success training
+2025-02-17 15:53:24,151 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-17 17:20:57,392 - train - INFO - Start training
+2025-02-17 17:20:57,393 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-17 17:20:57,410 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-17 17:20:57,420 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-17 17:20:57,447 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-17 17:20:57,455 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-17 17:20:57,486 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-17 17:20:57,497 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-17 17:20:57,549 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-17 17:20:57,558 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-17 17:20:57,623 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-17 17:20:57,632 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-17 17:20:57,699 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-17 17:20:57,708 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-17 17:20:57,769 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-17 17:20:57,781 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-17 17:20:57,873 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-17 17:20:57,883 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-17 17:20:57,979 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-17 17:20:57,989 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-17 17:20:57,989 - train - INFO - Max depth: 7, Temp Number: {1: 40, 2: 40, 3: 41, 4: 41, 5: 40, 6: 41, 7: 41, 8: 40, 9: 44}, Best Depth: 9
+2025-02-17 17:20:58,080 - train - INFO - Success training
+2025-02-17 17:20:58,084 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-17 17:22:25,041 - train - INFO - Start training
+2025-02-17 17:22:25,042 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-17 17:22:25,184 - train - INFO - Success training
+2025-02-17 17:22:25,196 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 09:17:11,044 - train - INFO - Start training
+2025-02-18 09:17:11,045 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 09:17:11,075 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-18 09:17:11,075 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-18 09:17:11,100 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-18 09:17:11,100 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-18 09:17:11,132 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-18 09:17:11,132 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-18 09:17:11,191 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-18 09:17:11,191 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-18 09:17:11,262 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-18 09:17:11,262 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-18 09:17:11,331 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-18 09:17:11,331 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-18 09:17:11,397 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-18 09:17:11,397 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-18 09:17:11,489 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-18 09:17:11,489 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-18 09:17:11,579 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-18 09:17:11,579 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-18 09:17:11,579 - train - INFO - Best Depth: {best_depth}
+2025-02-18 09:17:11,724 - train - INFO - Success training
+2025-02-18 09:17:11,737 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 09:17:37,444 - train - INFO - Start training
+2025-02-18 09:17:37,445 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 09:17:37,460 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-18 09:17:37,460 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-18 09:17:37,488 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-18 09:17:37,488 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-18 09:17:37,522 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-18 09:17:37,522 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-18 09:17:37,573 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-18 09:17:37,573 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-18 09:17:37,638 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-18 09:17:37,638 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-18 09:17:37,704 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-18 09:17:37,704 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-18 09:17:37,766 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-18 09:17:37,766 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-18 09:17:37,870 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-18 09:17:37,870 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-18 09:17:37,971 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-18 09:17:37,971 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-18 09:17:37,971 - train - INFO - Best Depth: {best_depth}
+2025-02-18 09:17:38,125 - train - INFO - Success training
+2025-02-18 09:17:38,136 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 14:52:12,100 - train - INFO - Start training
+2025-02-18 14:52:12,100 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 14:52:12,122 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-18 14:52:12,123 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-18 14:52:12,151 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-18 14:52:12,151 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-18 14:52:12,183 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-18 14:52:12,183 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-18 14:52:12,233 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-18 14:52:12,233 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-18 14:52:12,297 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-18 14:52:12,297 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-18 14:52:12,368 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-18 14:52:12,368 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-18 14:52:12,429 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-18 14:52:12,429 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-18 14:52:12,521 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-18 14:52:12,521 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-18 14:52:12,624 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-18 14:52:12,625 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-18 14:52:12,625 - train - INFO - Best Depth: {best_depth}
+2025-02-18 14:52:12,806 - train - INFO - Success training
+2025-02-18 14:52:12,819 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 15:02:13,595 - train - INFO - Start training
+2025-02-18 15:02:13,595 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:02:13,609 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-18 15:02:13,609 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-18 15:02:13,637 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-18 15:02:13,637 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-18 15:02:13,671 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-18 15:02:13,671 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-18 15:02:13,726 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-18 15:02:13,726 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-18 15:02:13,790 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-18 15:02:13,790 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-18 15:02:13,863 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-18 15:02:13,863 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-18 15:02:13,925 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-18 15:02:13,925 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-18 15:02:14,026 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-18 15:02:14,026 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-18 15:02:14,126 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-18 15:02:14,126 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-18 15:02:14,126 - train - INFO - Best Depth: {best_depth}
+2025-02-18 15:02:14,282 - train - INFO - Success training
+2025-02-18 15:02:14,292 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 15:04:24,180 - train - INFO - Start training
+2025-02-18 15:04:24,180 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:04:24,193 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-18 15:04:24,193 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-18 15:04:24,221 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-18 15:04:24,221 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-18 15:04:24,257 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-18 15:04:24,257 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-18 15:04:24,308 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-18 15:04:24,308 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-18 15:04:24,374 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-18 15:04:24,374 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-18 15:04:24,446 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-18 15:04:24,446 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-18 15:04:24,517 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-18 15:04:24,517 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-18 15:04:24,615 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-18 15:04:24,616 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-18 15:04:24,708 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-18 15:04:24,708 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-18 15:04:24,708 - train - INFO - Best Depth: {best_depth}
+2025-02-18 15:04:24,839 - train - INFO - Success training
+2025-02-18 15:04:24,848 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 15:17:49,357 - train - INFO - Start training
+2025-02-18 15:17:49,357 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:18:57,650 - train - INFO - Start training
+2025-02-18 15:18:57,651 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:20:36,440 - train - INFO - Start training
+2025-02-18 15:20:36,441 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:23:37,286 - train - INFO - Start training
+2025-02-18 15:23:37,286 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:25:52,430 - train - INFO - Start training
+2025-02-18 15:25:52,430 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:25:52,446 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 1, random_state = 42
+2025-02-18 15:25:52,447 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-18 15:25:52,474 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 2, random_state = 42
+2025-02-18 15:25:52,474 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-18 15:25:52,511 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 3, random_state = 42
+2025-02-18 15:25:52,511 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-18 15:25:52,571 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 4, random_state = 42
+2025-02-18 15:25:52,571 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-18 15:25:52,640 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 5, random_state = 42
+2025-02-18 15:25:52,640 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-18 15:25:52,714 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 6, random_state = 42
+2025-02-18 15:25:52,714 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-18 15:25:52,785 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 7, random_state = 42
+2025-02-18 15:25:52,785 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-18 15:25:52,876 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 8, random_state = 42
+2025-02-18 15:25:52,876 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-18 15:25:52,973 - train - INFO - Hyperparameters: max_features='sqrt', max_depth = 9, random_state = 42
+2025-02-18 15:25:52,973 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-18 15:25:52,973 - train - INFO - Best Depth: {best_depth}
+2025-02-18 15:25:53,066 - train - INFO - Success training
+2025-02-18 15:25:53,071 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 15:27:30,141 - train - INFO - Start training
+2025-02-18 15:27:30,143 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:27:30,158 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 15:27:30,158 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-18 15:27:30,186 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 15:27:30,186 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-18 15:27:30,220 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 15:27:30,220 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-18 15:27:30,275 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 15:27:30,275 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-18 15:27:30,341 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 15:27:30,341 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-18 15:27:30,410 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 15:27:30,410 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-18 15:27:30,475 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 15:27:30,476 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-18 15:27:30,569 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 15:27:30,569 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-18 15:27:30,666 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 15:27:30,666 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-18 15:27:30,666 - train - INFO - Best Depth: {best_depth}
+2025-02-18 15:27:30,758 - train - INFO - Success training
+2025-02-18 15:27:30,765 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 15:30:41,546 - train - INFO - Start training
+2025-02-18 15:30:41,547 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:30:41,708 - train - INFO - Success training
+2025-02-18 15:30:41,720 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 15:38:29,982 - train - INFO - Start training
+2025-02-18 15:38:29,983 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:39:53,003 - train - INFO - Start training
+2025-02-18 15:39:53,004 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:39:53,150 - train - INFO - Success training
+2025-02-18 15:39:53,160 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 15:43:54,305 - train - INFO - Start training
+2025-02-18 15:43:54,305 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:44:37,291 - train - INFO - Start training
+2025-02-18 15:44:37,291 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:45:18,462 - train - INFO - Start training
+2025-02-18 15:45:18,462 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:46:18,864 - train - INFO - Start training
+2025-02-18 15:46:18,864 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:50:50,051 - train - INFO - Start training
+2025-02-18 15:50:50,051 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 15:51:54,809 - train - INFO - Start training
+2025-02-18 15:51:54,809 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:09:24,070 - train - INFO - Start training
+2025-02-18 16:09:24,070 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:09:24,191 - train - INFO - Success training
+2025-02-18 16:09:24,201 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 16:25:58,662 - train - INFO - Start training
+2025-02-18 16:25:58,663 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:25:58,976 - train - INFO - Success training
+2025-02-18 16:25:58,991 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 16:27:04,416 - train - INFO - Start training
+2025-02-18 16:27:04,416 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:27:04,665 - train - INFO - Success training
+2025-02-18 16:27:04,681 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 16:29:04,570 - train - INFO - Start training
+2025-02-18 16:29:04,571 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:29:04,811 - train - INFO - Success training
+2025-02-18 16:29:04,826 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 16:29:54,036 - train - INFO - Start training
+2025-02-18 16:29:54,037 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:29:54,149 - train - INFO - Success training
+2025-02-18 16:29:54,158 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 16:43:25,302 - train - INFO - Start training
+2025-02-18 16:43:25,302 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:43:25,454 - train - INFO - Success training
+2025-02-18 16:43:25,465 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 16:44:12,222 - train - INFO - Start training
+2025-02-18 16:44:12,222 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:44:13,167 - train - INFO - Success training
+2025-02-18 16:44:13,200 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 16:44:43,530 - train - INFO - Start training
+2025-02-18 16:44:43,530 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:44:44,565 - train - INFO - Success training
+2025-02-18 16:44:44,604 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 16:45:16,239 - train - INFO - Start training
+2025-02-18 16:45:16,239 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:45:16,358 - train - INFO - Success training
+2025-02-18 16:45:16,368 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 16:46:08,132 - train - INFO - Start training
+2025-02-18 16:46:08,132 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:46:08,154 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:46:08,154 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-18 16:46:08,180 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:46:08,180 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-18 16:46:08,215 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:46:08,215 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-18 16:46:08,271 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:46:08,271 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-18 16:46:08,355 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:46:08,355 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-18 16:46:08,424 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:46:08,424 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-18 16:46:08,487 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:46:08,487 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-18 16:46:08,586 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:46:08,587 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-18 16:46:08,675 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:46:08,675 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-18 16:46:08,675 - train - INFO - Best Depth: 9
+2025-02-18 16:46:08,761 - train - INFO - Success training
+2025-02-18 16:46:08,770 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 16:48:12,760 - train - INFO - Start training
+2025-02-18 16:48:12,760 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 16:48:12,774 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:48:12,774 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-18 16:48:12,801 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:48:12,801 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-18 16:48:12,835 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:48:12,835 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-18 16:48:12,894 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:48:12,894 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-18 16:48:12,959 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:48:12,959 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-18 16:48:13,036 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:48:13,036 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-18 16:48:13,106 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:48:13,106 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-18 16:48:13,194 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:48:13,194 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-18 16:48:13,295 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-18 16:48:13,295 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-18 16:48:13,296 - train - INFO - Best Depth: 9
+2025-02-18 16:48:13,385 - train - INFO - Success training
+2025-02-18 16:48:13,390 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 17:01:51,964 - train - INFO - Start training
+2025-02-18 17:01:51,964 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-18 17:01:52,079 - train - INFO - Success training
+2025-02-18 17:01:52,089 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-18 17:02:22,887 - train - INFO - Start training
+2025-02-18 17:02:22,887 - train - INFO - Sample data train = 80, Sample data test = 100494
+2025-02-18 17:02:22,920 - train - INFO - Success training
+2025-02-18 17:02:22,936 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 08:50:05,140 - train - INFO - Start training
+2025-02-19 08:50:05,140 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 08:50:05,600 - train - INFO - Success training
+2025-02-19 08:50:05,630 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 08:52:09,017 - train - INFO - Start training
+2025-02-19 08:52:09,019 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 08:52:09,477 - train - INFO - Success training
+2025-02-19 08:52:09,501 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 09:27:39,733 - train - INFO - Start training
+2025-02-19 09:27:39,733 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 09:27:39,882 - train - INFO - Success training
+2025-02-19 09:27:39,892 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 09:41:13,307 - train - INFO - Start training
+2025-02-19 09:41:13,307 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 09:41:13,329 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:13,329 - train - INFO - Max Depth: 1, Accuracy: 4.821556243342395
+2025-02-19 09:41:13,356 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:13,356 - train - INFO - Max Depth: 2, Accuracy: 6.911561845069625
+2025-02-19 09:41:13,388 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:13,388 - train - INFO - Max Depth: 3, Accuracy: 8.33098780148993
+2025-02-19 09:41:13,429 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:13,429 - train - INFO - Max Depth: 4, Accuracy: 9.526428058333735
+2025-02-19 09:41:13,487 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:13,487 - train - INFO - Max Depth: 5, Accuracy: 10.490703338356322
+2025-02-19 09:41:13,546 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:13,546 - train - INFO - Max Depth: 6, Accuracy: 11.26759120130899
+2025-02-19 09:41:13,618 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:13,618 - train - INFO - Max Depth: 7, Accuracy: 11.698088900389713
+2025-02-19 09:41:13,694 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:13,694 - train - INFO - Max Depth: 8, Accuracy: 14.247669907670291
+2025-02-19 09:41:13,785 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:13,785 - train - INFO - Max Depth: 9, Accuracy: 14.541622800442422
+2025-02-19 09:41:13,785 - train - INFO - Best Depth: 9
+2025-02-19 09:41:13,870 - train - INFO - Success training
+2025-02-19 09:41:13,877 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 09:41:38,304 - train - INFO - Start training
+2025-02-19 09:41:38,304 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 09:41:38,319 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:38,319 - train - INFO - Max Depth: 1, Accuracy: 4.821556243342395
+2025-02-19 09:41:38,343 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:38,343 - train - INFO - Max Depth: 2, Accuracy: 6.911561845069625
+2025-02-19 09:41:38,374 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:38,374 - train - INFO - Max Depth: 3, Accuracy: 8.33098780148993
+2025-02-19 09:41:38,421 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:38,422 - train - INFO - Max Depth: 4, Accuracy: 9.526428058333735
+2025-02-19 09:41:38,481 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:38,481 - train - INFO - Max Depth: 5, Accuracy: 10.490703338356322
+2025-02-19 09:41:38,537 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:38,537 - train - INFO - Max Depth: 6, Accuracy: 11.26759120130899
+2025-02-19 09:41:38,611 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:38,611 - train - INFO - Max Depth: 7, Accuracy: 11.698088900389713
+2025-02-19 09:41:38,690 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:38,690 - train - INFO - Max Depth: 8, Accuracy: 14.247669907670291
+2025-02-19 09:41:38,794 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:41:38,795 - train - INFO - Max Depth: 9, Accuracy: 14.541622800442422
+2025-02-19 09:41:38,795 - train - INFO - Best Depth: 9
+2025-02-19 09:41:38,912 - train - INFO - Success training
+2025-02-19 09:41:38,919 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 09:43:01,541 - train - INFO - Start training
+2025-02-19 09:43:01,541 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 09:43:01,556 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:43:01,556 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-19 09:43:01,579 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:43:01,579 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-19 09:43:01,613 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:43:01,613 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-19 09:43:01,663 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:43:01,663 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-19 09:43:01,727 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:43:01,727 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-19 09:43:01,794 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:43:01,794 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-19 09:43:01,854 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:43:01,854 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-19 09:43:01,939 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:43:01,939 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-19 09:43:02,040 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 09:43:02,040 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-19 09:43:02,040 - train - INFO - Best Depth: 9
+2025-02-19 09:43:02,132 - train - INFO - Success training
+2025-02-19 09:43:02,138 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 10:00:53,900 - train - INFO - Start training
+2025-02-19 10:00:53,900 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 10:00:53,917 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:00:53,917 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-19 10:00:53,943 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:00:53,944 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-19 10:00:53,980 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:00:53,980 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-19 10:00:54,030 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:00:54,030 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-19 10:00:54,092 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:00:54,092 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-19 10:00:54,163 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:00:54,164 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-19 10:00:54,225 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:00:54,225 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-19 10:00:54,310 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:00:54,311 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-19 10:00:54,403 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:00:54,403 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-19 10:00:54,403 - train - INFO - Best Depth: 9
+2025-02-19 10:00:54,493 - train - INFO - Success training
+2025-02-19 10:00:54,499 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 10:01:46,307 - train - INFO - Start training
+2025-02-19 10:01:46,307 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 10:01:46,323 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:01:46,323 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-19 10:01:46,349 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:01:46,349 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-19 10:01:46,383 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:01:46,383 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-19 10:01:46,434 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:01:46,434 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-19 10:01:46,499 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:01:46,499 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-19 10:01:46,569 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:01:46,569 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-19 10:01:46,633 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:01:46,633 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-19 10:01:46,721 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:01:46,721 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-19 10:01:46,809 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 10:01:46,809 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-19 10:01:46,809 - train - INFO - Best Depth: 9
+2025-02-19 10:01:46,898 - train - INFO - Success training
+2025-02-19 10:01:46,903 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 11:20:32,135 - train - INFO - Start training
+2025-02-19 11:20:32,136 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 11:20:32,291 - train - INFO - Success training
+2025-02-19 11:20:32,302 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 11:21:46,167 - train - INFO - Start training
+2025-02-19 11:21:46,167 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 11:21:46,179 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:21:46,179 - train - INFO - Max Depth: 1, Accuracy: 39.47567660691842
+2025-02-19 11:21:46,212 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:21:46,212 - train - INFO - Max Depth: 2, Accuracy: 60.53974827751898
+2025-02-19 11:21:46,249 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:21:46,249 - train - INFO - Max Depth: 3, Accuracy: 58.09770760111868
+2025-02-19 11:21:46,284 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:21:46,284 - train - INFO - Max Depth: 4, Accuracy: 74.75340790129961
+2025-02-19 11:21:46,318 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:21:46,319 - train - INFO - Max Depth: 5, Accuracy: 84.84510094744621
+2025-02-19 11:21:46,360 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:21:46,361 - train - INFO - Max Depth: 6, Accuracy: 94.08643867048436
+2025-02-19 11:21:46,415 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:21:46,415 - train - INFO - Max Depth: 7, Accuracy: 95.19464130946129
+2025-02-19 11:21:46,464 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:21:46,464 - train - INFO - Max Depth: 8, Accuracy: 96.10057389501769
+2025-02-19 11:21:46,531 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:21:46,531 - train - INFO - Max Depth: 9, Accuracy: 95.72152109678515
+2025-02-19 11:21:46,531 - train - INFO - Best Depth: 8
+2025-02-19 11:21:46,574 - train - INFO - Success training
+2025-02-19 11:21:46,581 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 11:22:44,350 - train - INFO - Start training
+2025-02-19 11:22:44,351 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 11:22:44,476 - train - INFO - Success training
+2025-02-19 11:22:44,486 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 11:23:50,585 - train - INFO - Start training
+2025-02-19 11:23:50,585 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 11:23:50,600 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:23:50,600 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-19 11:23:50,629 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:23:50,629 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-19 11:23:50,660 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:23:50,661 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-19 11:23:50,714 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:23:50,714 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-19 11:23:50,777 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:23:50,777 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-19 11:23:50,846 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:23:50,846 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-19 11:23:50,910 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:23:50,910 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-19 11:23:50,995 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:23:50,995 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-19 11:23:51,081 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:23:51,082 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-19 11:23:51,082 - train - INFO - Best Depth: 9
+2025-02-19 11:23:51,180 - train - INFO - Success training
+2025-02-19 11:23:51,184 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 11:25:36,583 - train - INFO - Start training
+2025-02-19 11:25:36,583 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 11:25:36,597 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:25:36,597 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-19 11:25:36,629 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:25:36,629 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-19 11:25:36,661 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:25:36,661 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-19 11:25:36,711 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:25:36,711 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-19 11:25:36,771 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:25:36,771 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-19 11:25:36,836 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:25:36,838 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-19 11:25:36,901 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:25:36,901 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-19 11:25:36,989 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:25:36,989 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-19 11:25:37,081 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:25:37,081 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-19 11:25:37,081 - train - INFO - Best Depth: 9
+2025-02-19 11:25:37,174 - train - INFO - Success training
+2025-02-19 11:25:37,180 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 11:26:10,581 - train - INFO - Start training
+2025-02-19 11:26:10,581 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 11:26:10,598 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:10,598 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-19 11:26:10,626 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:10,626 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-19 11:26:10,660 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:10,661 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-19 11:26:10,710 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:10,711 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-19 11:26:10,780 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:10,780 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-19 11:26:10,866 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:10,866 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-19 11:26:10,935 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:10,935 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-19 11:26:11,028 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:11,028 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-19 11:26:11,121 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:11,121 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-19 11:26:11,121 - train - INFO - Best Depth: 9
+2025-02-19 11:26:11,215 - train - INFO - Success training
+2025-02-19 11:26:11,220 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 11:26:46,018 - train - INFO - Start training
+2025-02-19 11:26:46,018 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 11:26:46,032 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:46,033 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-19 11:26:46,063 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:46,064 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-19 11:26:46,099 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:46,099 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-19 11:26:46,152 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:46,152 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-19 11:26:46,219 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:46,219 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-19 11:26:46,302 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:46,302 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-19 11:26:46,365 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:46,366 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-19 11:26:46,449 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:46,449 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-19 11:26:46,544 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:26:46,545 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-19 11:26:46,545 - train - INFO - Best Depth: 9
+2025-02-19 11:26:46,632 - train - INFO - Success training
+2025-02-19 11:26:46,637 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 11:27:20,413 - train - INFO - Start training
+2025-02-19 11:27:20,413 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 11:27:20,427 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 1, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:27:20,427 - train - INFO - Max Depth: 1, Accuracy: 39.47570354178388
+2025-02-19 11:27:20,453 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 2, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:27:20,453 - train - INFO - Max Depth: 2, Accuracy: 44.12887221158235
+2025-02-19 11:27:20,486 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:27:20,486 - train - INFO - Max Depth: 3, Accuracy: 60.36761986067116
+2025-02-19 11:27:20,536 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 4, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:27:20,536 - train - INFO - Max Depth: 4, Accuracy: 80.69549442071984
+2025-02-19 11:27:20,598 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:27:20,600 - train - INFO - Max Depth: 5, Accuracy: 85.96351888359207
+2025-02-19 11:27:20,669 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 6, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:27:20,669 - train - INFO - Max Depth: 6, Accuracy: 87.56857286659742
+2025-02-19 11:27:20,728 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 7, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:27:20,729 - train - INFO - Max Depth: 7, Accuracy: 95.81213884541978
+2025-02-19 11:27:20,817 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:27:20,817 - train - INFO - Max Depth: 8, Accuracy: 95.92369401704717
+2025-02-19 11:27:20,913 - train - INFO - Hyperparameters:{'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 9, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}
+2025-02-19 11:27:20,913 - train - INFO - Max Depth: 9, Accuracy: 96.55901828520297
+2025-02-19 11:27:20,914 - train - INFO - Best Depth: 9
+2025-02-19 11:27:21,006 - train - INFO - Success training
+2025-02-19 11:27:21,013 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 11:28:34,677 - train - INFO - Start training
+2025-02-19 11:28:34,677 - train - INFO - Sample data train = 80459, Sample data test = 20115
+2025-02-19 11:28:34,795 - train - INFO - Success training
+2025-02-19 11:28:34,805 - train - INFO - Save data to file model.pkl 
+
+
+2025-02-19 11:30:17,436 - train - INFO - Start training
+2025-02-19 11:30:17,436 - train - INFO - Sample data train = 80459, Sample data test = 20115

@@ -1,3 +1,4 @@
+from Src.feature_engineering import *
 from Src.split_data_order import *
 from sklearn import preprocessing
 from dotenv import load_dotenv
@@ -24,21 +25,31 @@ def encode_features(df, key):
     df['AreaCode'] = label_encoder.fit_transform(df['AreaCode'].astype(str))
     df['Distance'] = haversine(df['PickupLat'], df['PickupLon'], df['ShipToLat'], df['ShipToLon'])
     df['EquipTypeNo'] = df.groupby(key)['Volume'].transform('sum')
+    # df['Qty'] = df.groupby(key)['Qty'].transform('sum')
+    # df['Weight'] = df.groupby(key)['Weight'].transform('sum')
     return df
 
 def encode_predict_value_features(df):
     df['Label'] = df['TripNo'].factorize()[0]
     return df
 def data_history_processing():
-    trip_data = DataLoader().load_excel('dataSet.xlsx')
-    trip_data = encode_features(trip_data,"TripNo")
-    trip_data = encode_predict_value_features(trip_data)
-    trip_data = trip_data.dropna()
-    return trip_data
+    key_trip_drop = ['BatchGroupNo','TripType','OrderNo','OrderNote','CompanyCode','Priority']
+    data = DataLoader().load_excel('dataSet.xlsx')
+    df_trip = encode_features(data,"TripNo")
+    df_trip = encode_predict_value_features(df_trip)
+    df_trip.drop(key_trip_drop, axis=1, inplace=True)
+    # trip_data = FeatureEngineering().feature_engineering(trip_data)
+    df_trip = df_trip.dropna()
+    print('df_trip',df_trip)
+    return df_trip    
    
 def data_predict_processing():
+    
     orders_data = DataLoader().load_excel('dataOrders.xlsx')
+    
     # orders_data = DataLoader().load_excel('dataValidate.xlsx')
+    # orders_data = DataLoader().load_excel('dataTest.xlsx')
+    
     split_orders = []
     
     for index, row in orders_data.iterrows():
@@ -46,7 +57,8 @@ def data_predict_processing():
         split_result = split_order(order, LIMIT_TRUCK)
         split_orders.extend(split_result)
         
-    orders_data = pd.DataFrame(split_orders)
-    orders_data = encode_features(orders_data,"OrderId")
-    return orders_data
+    df_orders = pd.DataFrame(split_orders)
+    df_orders = encode_features(df_orders,"OrderId")
+
+    return df_orders
 

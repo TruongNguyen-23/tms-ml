@@ -22,11 +22,11 @@ def training_data():
 
     model_file = "Models/model.pkl"
     
-    if model_file:
-        with open(model_file, 'rb') as file:
-            model = pickle.load(file)
-    else:
-        model = model_train_test(history_data, orders_data, FEATURE_KEY)
+    # if model_file:
+    #     with open(model_file, 'rb') as file:
+    #         model = pickle.load(file)
+    # else:
+    model = model_train_test(history_data, orders_data, FEATURE_KEY)
    
     orders_data['PredictedLabel'] = model.predict(orders_data[FEATURE_KEY])
     
@@ -59,6 +59,7 @@ def random_color_for_trip(number):
             json.dump(data, file)
             
 def trip_for_machine_learning():
+    data_trip = {}
     result = []
     orders_data = training_data()
     for label, group in orders_data.groupby('PredictedLabel'):
@@ -66,12 +67,12 @@ def trip_for_machine_learning():
         current_weight = 0
 
         for _, row in group.iterrows():
-            if current_weight + row['Volume'] > LIMIT_TRUCK:
-                result.append(current_group)
-                current_group = []
-                current_weight = 0
+            # if current_weight + row['Volume'] > LIMIT_TRUCK:
+            #     result.append(current_group)
+            #     current_group = []
+            #     current_weight = 0
             current_group.append(row.to_dict())
-            current_weight += row['Volume']
+            # current_weight += row['Volume']
 
         if current_group:
             result.append(current_group)
@@ -99,7 +100,12 @@ def trip_for_machine_learning():
         data_format.append(orders)
     html = MapCluster().show_data_on_map(trip_no, data_format, color_maker[:len(trip_no)])
     save_data_to_file(html)
-    return result
+    
+    for index, items in enumerate(result):
+        data_trip[f"Trip {index + 1}"] = items
+        print('toatl trip',sum([item['Volume'] for item in items]))
+        
+    return data_trip
 
 def save_data_to_file(data):
     file_name = "Templates/map.html"
