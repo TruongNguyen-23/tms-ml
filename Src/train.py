@@ -1,17 +1,18 @@
-
-
 from dotenv import load_dotenv
 from Src.preprocess import *
 from random import randbytes
 from jinja2 import Template
 from Src.map_view import *
 from Src.model import *
+from Vrp.vrp import *
 import pickle
 import os
 import json
 
+
+
 load_dotenv()
-FEATURE_KEY = ['Volume','AreaCode','ShipToLat', 'ShipToLon','PickupLat', 'PickupLon','Distance','EquipTypeNo','ShipToType']
+FEATURE_KEY = ['Volume','AreaCodes','ShipToLat', 'ShipToLon','PickupLat', 'PickupLon','Distance','EquipTypeNo','ShipToTypes']
 LIMIT_TRUCK = int(os.getenv('LIMIT_TRUCK'))
 DATA_COLOR = "color.json"
 
@@ -71,7 +72,7 @@ def trip_for_machine_learning():
             #     result.append(current_group)
             #     current_group = []
             #     current_weight = 0
-            current_group.append(row.to_dict())
+            current_group.append(row.to_dict()) 
             # current_weight += row['Volume']
 
         if current_group:
@@ -80,9 +81,77 @@ def trip_for_machine_learning():
     trip_no = []
     data_format = []
     color_maker = get_color_template()
+    trip_split = []
     
+    # for index,item in enumerate(result):
+    #     total = sum([value['Volume'] for value in item])
+    #     total_point = list(set([(value["ShipToLat"],value["ShipToLon"]) for value in item]))
+    #     num_vehicles = round(total / LIMIT_TRUCK)
+        
+    #     if  total > LIMIT_TRUCK and len(total_point) > 1:
+    #         item_split = solve_vrp(item, num_vehicles, LIMIT_TRUCK)
+    #         if item_split:
+    #             trip_split.extend(item_split)
+    #             del result[index]
+    #         else:
+    #             break
+    #     else:
+    #         current_weight = 0
+    #         current_group_ = []
+    #         for value_ in item:
+    #             if current_weight + value_['Volume'] > LIMIT_TRUCK:
+    #                 trip_split.append(current_group_)
+    #                 current_group_ = []
+    #                 current_weight = 0
+    #             current_weight += value_['Volume']
+            
+    
+    # for index in range(len(result) - 1, -1, -1):  # Duyệt từ cuối lên
+    #     item = result[index]
+    #     total = sum(value["Volume"] for value in item)
+    #     num_vehicles = round(total / LIMIT_TRUCK)
+    #     if total > LIMIT_TRUCK:
+    #         item_split = solve_vrp(item, num_vehicles, LIMIT_TRUCK)
+    #         if item_split:
+    #             trip_split.extend(item_split)
+    #             del result[index]  
+
+    index = 0
+    while index < len(result):
+        item = result[index]
+        total = sum(value["Volume"] for value in item)
+        total_point = list(set([(value["ShipToLat"],value["ShipToLon"]) for value in item]))
+        num_vehicles = round(total / LIMIT_TRUCK)
+        if total > LIMIT_TRUCK:
+            if total < 100:
+                item_split = run_solve_vrp_with_timeout(item, num_vehicles, LIMIT_TRUCK)
+                if item_split and len(total_point) > 1:
+                    trip_split.extend(item_split)
+            else:
+                current_weight = 0
+                current_group_ = []
+                # sorted data item with distance to pickup point
+                
+                for value_ in item:
+                    if current_weight + value_['Volume'] > LIMIT_TRUCK:
+                        if current_group_:
+                            trip_split.append(current_group_)
+                        current_group_ = []
+                        current_weight = 0
+                    current_group_.append(value_)
+                    current_weight += value_['Volume']
+                if current_group_:
+                    result.append(current_group_)
+            del result[index]
+            continue
+        index += 1
+
+            
+    result.extend(trip_split)
+    # print('result',result)
     # convent data in map or api:
     for index,item in enumerate(result):
+        
         trip_no.append('Trip #{}'.format(index+1))
         orders = []
         for items in item:
@@ -102,8 +171,9 @@ def trip_for_machine_learning():
     save_data_to_file(html)
     
     for index, items in enumerate(result):
-        data_trip[f"Trip {index + 1}"] = items
-        print('toatl trip',sum([item['Volume'] for item in items]))
+        if items:
+            data_trip[f"Trip {index + 1}"] = items
+            print('toatl trip',f"Trip {index + 1}",sum([item['Volume'] for item in items]))
         
     return data_trip
 

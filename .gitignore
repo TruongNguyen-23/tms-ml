@@ -13,8 +13,7 @@
 Notebooks/
 *.ipynb
 
-Templates/
-*.html
+
 
 venv/
 .env
@@ -23,8 +22,11 @@ __pycache__/
 *.pyo
 *.pyd
 
-.gitignore
+# .gitignore
 
+
+Templates/
+*.html
 # logs/
 # *.log
 # *.out

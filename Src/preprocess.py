@@ -21,10 +21,11 @@ def haversine(lat1, lon1, lat2, lon2):
     return 6371 * 2 * np.arcsin(np.sqrt(a))
 
 def encode_features(df, key):
-    df['ShipToType'] = label_encoder.fit_transform(df['ShipToType'].astype(str))
-    df['AreaCode'] = label_encoder.fit_transform(df['AreaCode'].astype(str))
+    df['ShipToTypes'] = label_encoder.fit_transform(df['ShipToType'].astype(str))
+    df['AreaCodes'] = label_encoder.fit_transform(df['AreaCode'].astype(str))
     df['Distance'] = haversine(df['PickupLat'], df['PickupLon'], df['ShipToLat'], df['ShipToLon'])
     df['EquipTypeNo'] = df.groupby(key)['Volume'].transform('sum')
+    
     # df['Qty'] = df.groupby(key)['Qty'].transform('sum')
     # df['Weight'] = df.groupby(key)['Weight'].transform('sum')
     return df
@@ -40,24 +41,28 @@ def data_history_processing():
     df_trip.drop(key_trip_drop, axis=1, inplace=True)
     # trip_data = FeatureEngineering().feature_engineering(trip_data)
     df_trip = df_trip.dropna()
+    
     print('df_trip',df_trip)
+    
     return df_trip    
    
 def data_predict_processing():
     
-    orders_data = DataLoader().load_excel('dataOrders.xlsx')
+    # orders_data = DataLoader().load_excel('dataOrders.xlsx')
     
     # orders_data = DataLoader().load_excel('dataValidate.xlsx')
     # orders_data = DataLoader().load_excel('dataTest.xlsx')
+    orders_data = DataLoader().load_excel('test1.xlsx')
     
-    split_orders = []
+    # split_orders = []
     
-    for index, row in orders_data.iterrows():
-        order = row.to_dict()
-        split_result = split_order(order, LIMIT_TRUCK)
-        split_orders.extend(split_result)
+    # for index, row in orders_data.iterrows():
+    #     order = row.to_dict()
+    #     split_result = split_order(order, LIMIT_TRUCK)
+    #     split_orders.extend(split_result)
         
-    df_orders = pd.DataFrame(split_orders)
+    # df_orders = pd.DataFrame(split_orders)
+    df_orders = pd.DataFrame(orders_data)
     df_orders = encode_features(df_orders,"OrderId")
 
     return df_orders

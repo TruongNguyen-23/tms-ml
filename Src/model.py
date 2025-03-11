@@ -25,8 +25,9 @@ def model_train_test(data, orders_data, key):
     train_logger.info("Start training")
     train_logger.info(f"Sample data train = {len(X_train)}, Sample data test = {len(X_test)}")
 
-    model = model_lgbmregressor(X_train, X_test, y_train, y_test)
-    # model = model_decision_tree_regressor(X_train, X_test, y_train, y_test)
+
+    # model = model_lgbmregressor(X_train, X_test, y_train, y_test)
+    model = model_decision_tree_regressor(X_train, X_test, y_train, y_test)
     # model = model_xgboost()
     model.fit(X_train, y_train)
     train_logger.info(f"Success training")
@@ -71,7 +72,7 @@ def model_decision_tree_regressor(X_train, X_test, y_train, y_test):
     best_depth = None
     
     for depth in range(1, 10):
-        clf = DecisionTreeRegressor(max_features = 'sqrt', max_depth = depth, random_state = 42)
+        clf = DecisionTreeRegressor(max_depth = depth, random_state = 42, max_features = "sqrt")
         clf.fit(X_train, y_train)
         accuracy = clf.score(X_test, y_test) * 100
         train_logger.info(f"Hyperparameters:{clf.get_params()}")
@@ -82,7 +83,7 @@ def model_decision_tree_regressor(X_train, X_test, y_train, y_test):
     
     train_logger.info(f"Best Depth: {best_depth}")
     
-    model = DecisionTreeRegressor(max_features = 'sqrt', max_depth = best_depth, random_state = 42)
+    model = DecisionTreeRegressor(max_depth = best_depth, random_state = 42, max_features = "sqrt")
     return model
 
 def model_lgbmregressor(X_train, X_test, y_train, y_test):
